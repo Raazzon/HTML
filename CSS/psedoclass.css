@@ -1,0 +1,37 @@
+p.first:first-letter{
+	color: red;
+	font-size: 30px;
+}
+
+p:first-letter{
+color: blue;
+font-size: 40px;
+}
+
+a{
+	color: green;
+	text-decoration: none;
+}
+
+a:visited{
+	color: yellow;
+}
+
+a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+
+a:active{
+	color: black;
+	text-decoration: purple;
+}
+
+ul{
+	list-style-type: square;
+}
+
+body{
+	background-image: url('download.jpg');
+	background-color: #252525;
+}

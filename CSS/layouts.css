@@ -1,0 +1,72 @@
+/*Gettin rid of defaults*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family:sans-serif;
+	text-align: center;
+}
+/*Centering the webpage*/
+#center_maker{
+	width: 960px;
+	margin: 0px auto;
+	text-align: left;
+}
+/*header of the Css*/
+#page_header{
+	border:2px solid red;
+	margin-top: 10px;
+}
+.logo{
+	display: inline;
+	vertical-align: middle;
+}
+
+.head_text{
+	display: inline;
+}
+
+/* Start navigation*/
+#top_nav{
+	border:2px solid blue;
+	margin: 5px 0px;
+	padding: 10px;
+}
+
+#top_nav ul{
+	list-style-type: none;
+}
+#top_nav ul li{
+	display: inline;
+}
+
+#top_nav ul li a{
+	margin: 10px;
+}
+/*start the section*/
+#section{	/*640px*/
+	float: right;
+	margin: 0px 10px 10px 0px;/*top right bottom left  10px*/
+	padding: 10px;	/*20px over all*/
+	border:2px solid green; /*4px*/
+	width:606px ;
+	height: 450px;
+}
+/*Side news*/
+#side_news{  /*320px*/
+	float: left;
+	padding: 10px;
+	border:1px solid orange;
+	width: 296px;
+	height: 450px;
+}
+
+/*footeer*/
+#footer_main{
+	clear: both;
+	border:2px solid purple;
+	padding: 10px;
+	text-align: center;
+}
